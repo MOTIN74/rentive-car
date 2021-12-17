@@ -1,7 +1,7 @@
 # Rentive Car
 
-This project is fully responsive, please visit the live site [Rentive Car](https://assignment12-d75c2.web.app/).
- - [Server site](https://github.com/AL-AMIN-HUB/rentive-car-server).
+This project is fully responsive, please visit the live site [Rentive Car]().
+ - [Server site]().
 
 ## Rentive Car
 
