@@ -1,0 +1,22 @@
+.orderPlaceForm form {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+.orderPlaceForm form input,
+textarea {
+  margin-bottom: 10px;
+  padding: 16px;
+  border: none;
+}
+.orderPlaceForm form textarea {
+  width: 89%;
+}
+.inputSubmit {
+  cursor: pointer;
+}
+@media only screen and (max-width: 768px) {
+  .orderPlaceForm form textarea {
+    width: 90%;
+  }
+}

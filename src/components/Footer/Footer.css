@@ -1,0 +1,11 @@
+.parent {
+  position: relative;
+  top: 50px;
+  z-index: 1;
+}
+
+.child {
+  width: 100%;
+  position: absolute;
+  z-index: -1;
+}

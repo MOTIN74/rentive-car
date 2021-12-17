@@ -1,0 +1,9 @@
+.chooseUs {
+  padding: 150px 0;
+}
+
+@media only screen and (max-width: 768px) {
+  .chooseUs {
+    padding: 600px 0 0 0;
+  }
+}

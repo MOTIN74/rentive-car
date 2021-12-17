@@ -1,0 +1,9 @@
+.banner {
+  background-image: url(https://i.ibb.co/1Xv7bwt/brand-new-car-in-showroom.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-blend-mode: darken, luminosity;
+  background-color: rgba(17, 17, 17, 0.6);
+  height: 850px;
+}

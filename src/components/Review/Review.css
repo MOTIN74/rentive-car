@@ -1,0 +1,32 @@
+.review form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 430px;
+}
+
+.review form input,
+textarea {
+  width: 430px;
+  margin-bottom: 10px;
+}
+
+.login form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 400px;
+}
+
+.login form input {
+  margin-bottom: 20px;
+}
+.login {
+  background-image: url(https://i.ibb.co/6rYn8BW/pexels-adrien-olichon-2387793.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-blend-mode: darken, luminosity;
+  background-color: rgba(17, 17, 17, 0.4);
+  height: 100vh;
+}

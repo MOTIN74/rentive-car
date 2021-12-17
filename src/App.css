@@ -1,0 +1,44 @@
+/* custom button background color style */
+.btn-custom {
+  background: #0cebeb; /* fallback for old browsers */
+  background: -webkit-linear-gradient(90deg, #29ffc6, #20e3b2, #0cebeb); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(90deg, #29ffc6, #20e3b2, #0cebeb); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+/* full project custom style */
+.App {
+  margin-top: 50px;
+  cursor: pointer;
+}
+
+.choose-box {
+  margin-left: -100px;
+  margin-top: 30px;
+}
+
+/* footer icon style */
+.footer-icon {
+  padding: 12px;
+  background-color: #ffdd00;
+  margin: 5px;
+  font-size: 18px;
+  cursor: pointer;
+}
+.rating-color {
+  color: #ffdd00;
+}
+
+.imgNews {
+  transition: 0.5s;
+}
+.imgNews:hover {
+  transform: scale(1.1);
+}
+
+/* few media query use for  responsive this page */
+@media only screen and (max-width: 768px) {
+  .choose-box {
+    margin-left: 0px;
+    margin-top: 0px;
+  }
+}

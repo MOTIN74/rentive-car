@@ -1,0 +1,10 @@
+.reviewHeader {
+  background-image: url(https://templatekit.jegtheme.com/rentive/wp-content/uploads/sites/62/2021/03/happy-couple-sitting-in-new-car-showroom.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-blend-mode: darken, luminosity;
+  background-color: rgba(17, 17, 17, 0.6);
+  height: 500px;
+  margin: 150px 0;
+}
