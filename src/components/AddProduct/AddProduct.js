@@ -9,7 +9,7 @@ const AddProduct = () => {
   const url = "/explore";
   const { register, handleSubmit, reset } = useForm();
   const onSubmit = (data) => {
-    axios.post("http://localhost:5000/addProduct", data).then((res) => {
+    axios.post("https://lit-forest-29072.herokuapp.com/addProduct", data).then((res) => {
       if (res?.data?.insertedId) {
         swal({
           title: "Wow!",

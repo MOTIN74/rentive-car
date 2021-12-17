@@ -21,7 +21,7 @@ const OrderPlace = () => {
     // console.log(data);
     delete data._id;
     // post order
-    axios.post("http://localhost:5000/orders", data).then((res) => {
+    axios.post("https://lit-forest-29072.herokuapp.com/orders", data).then((res) => {
       if (res.data.insertedId) {
         alert("Success! We have successfully inserted order");
         swal({
@@ -37,7 +37,7 @@ const OrderPlace = () => {
   };
 
   useEffect(() => {
-    const url = `http://localhost:5000/carExplore/${productId}`;
+    const url = `https://lit-forest-29072.herokuapp.com/carExplore/${productId}`;
     fetch(url)
       .then((res) => res.json())
       .then((data) => {
@@ -47,7 +47,7 @@ const OrderPlace = () => {
   }, [productId, reset]);
 
   useEffect(() => {
-    const url = `http://localhost:5000/allProducts/${productId}`;
+    const url = `https://lit-forest-29072.herokuapp.com/allProducts/${productId}`;
     fetch(url)
       .then((res) => res.json())
       .then((data) => {

@@ -7,7 +7,7 @@ const ManageAllOrders = () => {
   const [allOrders, setAllOrders] = useState([]);
 
   useEffect(() => {
-    fetch("http://localhost:5000/allOrdersManage")
+    fetch("https://lit-forest-29072.herokuapp.com/allOrdersManage")
       .then((res) => res.json())
       .then((data) => {
         setAllOrders(data);
@@ -15,7 +15,7 @@ const ManageAllOrders = () => {
   }, []);
   //
   const handleDelete = (id) => {
-    fetch(`http://localhost:5000/orders/${id}`, {
+    fetch(`https://lit-forest-29072.herokuapp.com/orders/${id}`, {
       method: "DELETE",
     })
       .then((res) => res.json())

@@ -13,7 +13,7 @@ const Services = () => {
   const [products, setProducts] = useState([]);
   useEffect(() => {
     setIsLoading(true);
-    fetch("http://localhost:5000/allProducts")
+    fetch("https://lit-forest-29072.herokuapp.com/allProducts")
       .then((res) => res.json())
       .then((data) => setProducts(data))
       .finally(() => {

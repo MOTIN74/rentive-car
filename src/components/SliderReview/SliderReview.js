@@ -13,7 +13,7 @@ SwiperCore.use([Autoplay, Pagination, Navigation]);
 const SliderReview = () => {
   const [reviews, setReviews] = useState([]);
   useEffect(() => {
-    fetch("http://localhost:5000/allReview")
+    fetch("https://lit-forest-29072.herokuapp.com/allReview")
       .then((res) => res.json())
       .then((data) => setReviews(data));
   }, []);

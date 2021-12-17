@@ -14,7 +14,7 @@ const Review = () => {
   const onSubmit = (data) => {
     delete data._id;
 
-    axios.post("http://localhost:5000/allReview", data).then((res) => {
+    axios.post("https://lit-forest-29072.herokuapp.com/allReview", data).then((res) => {
       if (res?.data?.insertedId) {
         swal({
           title: "Congratulations!",

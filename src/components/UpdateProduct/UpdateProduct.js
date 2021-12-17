@@ -17,7 +17,7 @@ const UpdateProduct = () => {
     // console.log(data);
     delete data._id;
     // update order
-    fetch(`http://localhost:5000/updateProduct/${Id}`, {
+    fetch(`https://lit-forest-29072.herokuapp.com/updateProduct/${Id}`, {
       method: "PUT",
       headers: {
         "content-type": "application/json",
@@ -39,7 +39,7 @@ const UpdateProduct = () => {
   };
 
   useEffect(() => {
-    const url = `http://localhost:5000/carExplore/${Id}`;
+    const url = `https://lit-forest-29072.herokuapp.com/carExplore/${Id}`;
     fetch(url)
       .then((res) => res.json())
       .then((data) => {

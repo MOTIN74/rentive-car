@@ -6,7 +6,7 @@ import { Link } from "react-router-dom";
 const ManageProducts = () => {
   const [products, setProducts] = useState([]);
   useEffect(() => {
-    const url = "http://localhost:5000/carExplore";
+    const url = "https://lit-forest-29072.herokuapp.com/carExplore";
     fetch(url)
       .then((res) => res.json())
       .then((data) => {
@@ -17,7 +17,7 @@ const ManageProducts = () => {
 
   //
   const handleDelete = (id) => {
-    fetch(`http://localhost:5000/products/${id}`, {
+    fetch(`https://lit-forest-29072.herokuapp.com/products/${id}`, {
       method: "DELETE",
     })
       .then((res) => res.json())

@@ -18,7 +18,7 @@ const UpdateStatus = () => {
     console.log(data);
     delete data._id;
     // update order
-    fetch(`http://localhost:5000/updateStatus/${Id}`, {
+    fetch(`https://lit-forest-29072.herokuapp.com/updateStatus/${Id}`, {
       method: "PUT",
       headers: {
         "content-type": "application/json",
@@ -40,7 +40,7 @@ const UpdateStatus = () => {
   };
 
   useEffect(() => {
-    fetch(`http://localhost:5000/updateStatus/${Id}`)
+    fetch(`https://lit-forest-29072.herokuapp.com/updateStatus/${Id}`)
       .then((res) => res.json())
       .then((data) => {
         setStatus(data);

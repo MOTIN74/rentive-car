@@ -10,7 +10,7 @@ const MyOrders = () => {
   const [orders, setOrders] = useState([]);
   useEffect(() => {
     setIsLoading(true);
-    const url = `http://localhost:5000/allOrders/${user?.email}`;
+    const url = `https://lit-forest-29072.herokuapp.com/allOrders/${user?.email}`;
     fetch(url)
       .then((res) => res.json())
       .then((data) => {
@@ -31,7 +31,7 @@ const MyOrders = () => {
 
   //
   const handleDelete = (id) => {
-    fetch(`http://localhost:5000/orders/${id}`, {
+    fetch(`https://lit-forest-29072.herokuapp.com/orders/${id}`, {
       method: "DELETE",
     })
       .then((res) => res.json())
