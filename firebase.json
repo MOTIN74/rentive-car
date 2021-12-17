@@ -1,6 +1,10 @@
 {
+  
+  "functions": {
+    "source": "functions"
+  },
   "hosting": {
-    "public": "build",
+    "public": "dist{rentive-car-client}",
     "ignore": [
       "firebase.json",
       "**/.*",

@@ -1,5 +1,7 @@
 {
   "projects": {
-    "default": "assignment12-d75c2"
-  }
+    "default": "react-food-5746c",
+    "build": "react-food-5746c"
+  },
+  "targets": {}
 }
